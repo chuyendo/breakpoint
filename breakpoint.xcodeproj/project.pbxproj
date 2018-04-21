@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		04A4ECC9208AF3DE005CAA33 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04A4ECC8208AF265005CAA33 /* GoogleService-Info.plist */; };
+		04A4ECCB208B0B32005CAA33 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4ECCA208B0B32005CAA33 /* DataService.swift */; };
 		04B6143E208A42F600C228F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B6143D208A42F600C228F6 /* AppDelegate.swift */; };
 		04B61440208A42F600C228F6 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B6143F208A42F600C228F6 /* FirstViewController.swift */; };
 		04B61442208A42F600C228F6 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B61441208A42F600C228F6 /* SecondViewController.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		04A4ECC8208AF265005CAA33 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Asset/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		04A4ECCA208B0B32005CAA33 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		04B6143A208A42F600C228F6 /* breakpoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = breakpoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B6143D208A42F600C228F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04B6143F208A42F600C228F6 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 		04B61455208A44F600C228F6 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				04A4ECCA208B0B32005CAA33 /* DataService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				04B61442208A42F600C228F6 /* SecondViewController.swift in Sources */,
 				04B6143E208A42F600C228F6 /* AppDelegate.swift in Sources */,
 				04B61440208A42F600C228F6 /* FirstViewController.swift in Sources */,
+				04A4ECCB208B0B32005CAA33 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
