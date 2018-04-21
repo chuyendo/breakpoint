@@ -15,6 +15,9 @@
 		04B61445208A42F600C228F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B61443208A42F600C228F6 /* Main.storyboard */; };
 		04B61447208A42F600C228F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B61446208A42F600C228F6 /* Assets.xcassets */; };
 		04B6144A208A42F600C228F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B61448208A42F600C228F6 /* LaunchScreen.storyboard */; };
+		04CB6EC9208B4808003BEBF0 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB6EC8208B4808003BEBF0 /* LoginVC.swift */; };
+		04FC4EAB208B8F7700F71F7F /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FC4EAA208B8F7700F71F7F /* InsetTextField.swift */; };
+		04FC4EAD208B967900F71F7F /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FC4EAC208B967900F71F7F /* ShadowView.swift */; };
 		50A37678C2DAC57AD801ECFB /* Pods_breakpoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7206F93BAE25886D730EE13C /* Pods_breakpoint.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +32,9 @@
 		04B61446208A42F600C228F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04B61449208A42F600C228F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04B6144B208A42F600C228F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04CB6EC8208B4808003BEBF0 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		04FC4EAA208B8F7700F71F7F /* InsetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTextField.swift; sourceTree = "<group>"; };
+		04FC4EAC208B967900F71F7F /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 		6D10DDE6B56FBCE2176AE041 /* Pods-breakpoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breakpoint.release.xcconfig"; path = "Pods/Target Support Files/Pods-breakpoint/Pods-breakpoint.release.xcconfig"; sourceTree = "<group>"; };
 		7206F93BAE25886D730EE13C /* Pods_breakpoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_breakpoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC7F528E73A8E28498F5417B /* Pods-breakpoint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breakpoint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-breakpoint/Pods-breakpoint.debug.xcconfig"; sourceTree = "<group>"; };
@@ -87,6 +93,7 @@
 			children = (
 				04B6143F208A42F600C228F6 /* FirstViewController.swift */,
 				04B61441208A42F600C228F6 /* SecondViewController.swift */,
+				04CB6EC8208B4808003BEBF0 /* LoginVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -94,6 +101,8 @@
 		04B61452208A43AE00C228F6 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				04FC4EAA208B8F7700F71F7F /* InsetTextField.swift */,
+				04FC4EAC208B967900F71F7F /* ShadowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -277,6 +286,9 @@
 				04B6143E208A42F600C228F6 /* AppDelegate.swift in Sources */,
 				04B61440208A42F600C228F6 /* FirstViewController.swift in Sources */,
 				04A4ECCB208B0B32005CAA33 /* DataService.swift in Sources */,
+				04CB6EC9208B4808003BEBF0 /* LoginVC.swift in Sources */,
+				04FC4EAB208B8F7700F71F7F /* InsetTextField.swift in Sources */,
+				04FC4EAD208B967900F71F7F /* ShadowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
