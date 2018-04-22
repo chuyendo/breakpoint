@@ -5,7 +5,6 @@
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
-        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -210,6 +209,9 @@
                                                 <state key="normal" title="LOGIN WITH FB">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="facebookSignInBtnWasPressed:" destination="BV9-TM-Ado" eventType="touchUpInside" id="iZ2-7J-XiU"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V3N-ny-aMU">
                                                 <rect key="frame" x="0.0" y="144" width="303" height="62"/>
@@ -218,6 +220,9 @@
                                                 <state key="normal" title="LOGIN WITH G+">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="googleSignInBtnWasPressed:" destination="BV9-TM-Ado" eventType="touchUpInside" id="cDN-Um-SqO"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UVO-kn-sxJ">
                                                 <rect key="frame" x="0.0" y="216" width="303" height="62"/>
@@ -236,6 +241,9 @@
                                         <state key="normal" title=" by email" image="emailIcon">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="signInWithEmailBtnWasPressed:" destination="BV9-TM-Ado" eventType="touchUpInside" id="QXN-ia-gMJ"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.27058823529411763" green="0.27058823529411763" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
@@ -285,6 +293,9 @@
                                     <constraint firstAttribute="width" constant="30" id="tzp-Jw-YFQ"/>
                                 </constraints>
                                 <state key="normal" image="close"/>
+                                <connections>
+                                    <action selector="closeBtnWasPressed:" destination="rgL-k3-VAu" eventType="touchUpInside" id="mfL-nn-3FL"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0nV-l4-rMg">
                                 <rect key="frame" x="147.5" y="259" width="80" height="33"/>
@@ -295,6 +306,9 @@
                                 <state key="normal" title="SIGN IN">
                                     <color key="titleColor" red="0.015686274510000001" green="0.6705882353" blue="0.7725490196" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="signInBtnWasPressed:" destination="rgL-k3-VAu" eventType="touchUpInside" id="Dl9-32-z6c"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="D4d-NM-EmX">
                                 <rect key="frame" x="36" y="78" width="303" height="161"/>
@@ -339,6 +353,10 @@
                             <constraint firstItem="Bnp-4N-aMx" firstAttribute="leading" secondItem="Pma-s8-IcG" secondAttribute="leadingMargin" id="eNJ-5a-TPn"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="emailField" destination="BQA-wB-2wY" id="Mhx-Bt-ATi"/>
+                        <outlet property="passwordField" destination="v1y-Ic-k2r" id="jCU-g6-2VV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BN5-HB-SQg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
