@@ -10,8 +10,8 @@
 		04A4ECC9208AF3DE005CAA33 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04A4ECC8208AF265005CAA33 /* GoogleService-Info.plist */; };
 		04A4ECCB208B0B32005CAA33 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4ECCA208B0B32005CAA33 /* DataService.swift */; };
 		04B6143E208A42F600C228F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B6143D208A42F600C228F6 /* AppDelegate.swift */; };
-		04B61440208A42F600C228F6 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B6143F208A42F600C228F6 /* FirstViewController.swift */; };
-		04B61442208A42F600C228F6 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B61441208A42F600C228F6 /* SecondViewController.swift */; };
+		04B61440208A42F600C228F6 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B6143F208A42F600C228F6 /* FeedVC.swift */; };
+		04B61442208A42F600C228F6 /* GroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B61441208A42F600C228F6 /* GroupsVC.swift */; };
 		04B61445208A42F600C228F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B61443208A42F600C228F6 /* Main.storyboard */; };
 		04B61447208A42F600C228F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B61446208A42F600C228F6 /* Assets.xcassets */; };
 		04B6144A208A42F600C228F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B61448208A42F600C228F6 /* LaunchScreen.storyboard */; };
@@ -27,8 +27,8 @@
 		04A4ECCA208B0B32005CAA33 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		04B6143A208A42F600C228F6 /* breakpoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = breakpoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B6143D208A42F600C228F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		04B6143F208A42F600C228F6 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		04B61441208A42F600C228F6 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		04B6143F208A42F600C228F6 /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		04B61441208A42F600C228F6 /* GroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsVC.swift; sourceTree = "<group>"; };
 		04B61444208A42F600C228F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04B61446208A42F600C228F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04B61449208A42F600C228F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -93,8 +93,8 @@
 		04B61451208A434500C228F6 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				04B6143F208A42F600C228F6 /* FirstViewController.swift */,
-				04B61441208A42F600C228F6 /* SecondViewController.swift */,
+				04B6143F208A42F600C228F6 /* FeedVC.swift */,
+				04B61441208A42F600C228F6 /* GroupsVC.swift */,
 				04CB6EC8208B4808003BEBF0 /* LoginVC.swift */,
 			);
 			path = Controller;
@@ -285,9 +285,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04B61442208A42F600C228F6 /* SecondViewController.swift in Sources */,
+				04B61442208A42F600C228F6 /* GroupsVC.swift in Sources */,
 				04B6143E208A42F600C228F6 /* AppDelegate.swift in Sources */,
-				04B61440208A42F600C228F6 /* FirstViewController.swift in Sources */,
+				04B61440208A42F600C228F6 /* FeedVC.swift in Sources */,
 				04A4ECCB208B0B32005CAA33 /* DataService.swift in Sources */,
 				04CB6EC9208B4808003BEBF0 /* LoginVC.swift in Sources */,
 				04FC4EAB208B8F7700F71F7F /* InsetTextField.swift in Sources */,
