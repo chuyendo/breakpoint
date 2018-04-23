@@ -32,7 +32,7 @@ class LoginVC: UIViewController {
                     if success {
                         AuthService.instance.loginUser(withEmail: self.emailField.text!, andPassword: self.passwordField.text!, loginComplete: { (success, nil) in
                             self.dismiss(animated: true, completion: nil)
-                            print("Successfully registed user")
+                            print("Successfully registered user")
                         })
                     } else {
                         print(String(describing: registrationError?.localizedDescription))
