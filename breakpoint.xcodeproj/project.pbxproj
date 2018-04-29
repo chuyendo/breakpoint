@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		042E54D4208C933900DC2D40 /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042E54D3208C933900DC2D40 /* AuthVC.swift */; };
+		04480EB2208F1A09004E9445 /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04480EB1208F1A09004E9445 /* CreatePostVC.swift */; };
 		04A4ECC9208AF3DE005CAA33 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04A4ECC8208AF265005CAA33 /* GoogleService-Info.plist */; };
 		04A4ECCB208B0B32005CAA33 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4ECCA208B0B32005CAA33 /* DataService.swift */; };
 		04B6143E208A42F600C228F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B6143D208A42F600C228F6 /* AppDelegate.swift */; };
@@ -16,6 +17,7 @@
 		04B61445208A42F600C228F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B61443208A42F600C228F6 /* Main.storyboard */; };
 		04B61447208A42F600C228F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B61446208A42F600C228F6 /* Assets.xcassets */; };
 		04B6144A208A42F600C228F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B61448208A42F600C228F6 /* LaunchScreen.storyboard */; };
+		04B9B3622095C51400C69D0F /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B9B3612095C51400C69D0F /* UIViewExt.swift */; };
 		04CB6EC9208B4808003BEBF0 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB6EC8208B4808003BEBF0 /* LoginVC.swift */; };
 		04EC3A9B208C4E960078F27D /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EC3A9A208C4E960078F27D /* AuthService.swift */; };
 		04EE13F1208E3B8400AD341C /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EE13F0208E3B8400AD341C /* MeVC.swift */; };
@@ -26,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		042E54D3208C933900DC2D40 /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
+		04480EB1208F1A09004E9445 /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
 		04A4ECC8208AF265005CAA33 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Asset/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		04A4ECCA208B0B32005CAA33 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		04B6143A208A42F600C228F6 /* breakpoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = breakpoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +39,7 @@
 		04B61446208A42F600C228F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04B61449208A42F600C228F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04B6144B208A42F600C228F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B9B3612095C51400C69D0F /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		04CB6EC8208B4808003BEBF0 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		04EC3A9A208C4E960078F27D /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		04EE13F0208E3B8400AD341C /* MeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
@@ -102,6 +106,7 @@
 				042E54D3208C933900DC2D40 /* AuthVC.swift */,
 				04CB6EC8208B4808003BEBF0 /* LoginVC.swift */,
 				04EE13F0208E3B8400AD341C /* MeVC.swift */,
+				04480EB1208F1A09004E9445 /* CreatePostVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -125,6 +130,7 @@
 		04B61454208A44C100C228F6 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				04B9B3612095C51400C69D0F /* UIViewExt.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -291,6 +297,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B9B3622095C51400C69D0F /* UIViewExt.swift in Sources */,
 				04EE13F1208E3B8400AD341C /* MeVC.swift in Sources */,
 				042E54D4208C933900DC2D40 /* AuthVC.swift in Sources */,
 				04B61442208A42F600C228F6 /* GroupsVC.swift in Sources */,
@@ -298,6 +305,7 @@
 				04B61440208A42F600C228F6 /* FeedVC.swift in Sources */,
 				04A4ECCB208B0B32005CAA33 /* DataService.swift in Sources */,
 				04CB6EC9208B4808003BEBF0 /* LoginVC.swift in Sources */,
+				04480EB2208F1A09004E9445 /* CreatePostVC.swift in Sources */,
 				04FC4EAB208B8F7700F71F7F /* InsetTextField.swift in Sources */,
 				04FC4EAD208B967900F71F7F /* ShadowView.swift in Sources */,
 				04EC3A9B208C4E960078F27D /* AuthService.swift in Sources */,
