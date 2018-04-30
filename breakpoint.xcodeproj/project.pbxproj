@@ -19,6 +19,7 @@
 		04B6144A208A42F600C228F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B61448208A42F600C228F6 /* LaunchScreen.storyboard */; };
 		04B9B3622095C51400C69D0F /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B9B3612095C51400C69D0F /* UIViewExt.swift */; };
 		04CB6EC9208B4808003BEBF0 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB6EC8208B4808003BEBF0 /* LoginVC.swift */; };
+		04DFB9DD2096F660003CE74D /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DFB9DC2096F660003CE74D /* Message.swift */; };
 		04EB2E792096246000B7784C /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EB2E782096246000B7784C /* FeedCell.swift */; };
 		04EC3A9B208C4E960078F27D /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EC3A9A208C4E960078F27D /* AuthService.swift */; };
 		04EE13F1208E3B8400AD341C /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EE13F0208E3B8400AD341C /* MeVC.swift */; };
@@ -42,6 +43,7 @@
 		04B6144B208A42F600C228F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04B9B3612095C51400C69D0F /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		04CB6EC8208B4808003BEBF0 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		04DFB9DC2096F660003CE74D /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		04EB2E782096246000B7784C /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		04EC3A9A208C4E960078F27D /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		04EE13F0208E3B8400AD341C /* MeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 		04B61453208A44BB00C228F6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				04DFB9DC2096F660003CE74D /* Message.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 				04FC4EAB208B8F7700F71F7F /* InsetTextField.swift in Sources */,
 				04FC4EAD208B967900F71F7F /* ShadowView.swift in Sources */,
 				04EC3A9B208C4E960078F27D /* AuthService.swift in Sources */,
+				04DFB9DD2096F660003CE74D /* Message.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
