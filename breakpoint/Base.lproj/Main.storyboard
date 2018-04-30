@@ -437,6 +437,7 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Me" image="me-tabIcon" selectedImage="me-tabIcon" id="xoS-Da-x3M"/>
+                    <value key="contentSizeForViewInPopover" type="size" width="375" height="666"/>
                     <connections>
                         <outlet property="emailLbl" destination="ZAC-7F-Fcx" id="WnR-Yx-Uzw"/>
                         <outlet property="profileImage" destination="Pru-zy-pWR" id="tcW-a4-Rsd"/>
