@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04253C50209725B8002B465F /* CreateGroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04253C4F209725B8002B465F /* CreateGroupsVC.swift */; };
 		042E54D4208C933900DC2D40 /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042E54D3208C933900DC2D40 /* AuthVC.swift */; };
 		04480EB2208F1A09004E9445 /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04480EB1208F1A09004E9445 /* CreatePostVC.swift */; };
 		04A4ECC9208AF3DE005CAA33 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04A4ECC8208AF265005CAA33 /* GoogleService-Info.plist */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04253C4F209725B8002B465F /* CreateGroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupsVC.swift; sourceTree = "<group>"; };
 		042E54D3208C933900DC2D40 /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
 		04480EB1208F1A09004E9445 /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
 		04A4ECC8208AF265005CAA33 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Asset/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
@@ -111,6 +113,7 @@
 				04CB6EC8208B4808003BEBF0 /* LoginVC.swift */,
 				04EE13F0208E3B8400AD341C /* MeVC.swift */,
 				04480EB1208F1A09004E9445 /* CreatePostVC.swift */,
+				04253C4F209725B8002B465F /* CreateGroupsVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 				04B61442208A42F600C228F6 /* GroupsVC.swift in Sources */,
 				04B6143E208A42F600C228F6 /* AppDelegate.swift in Sources */,
 				04B61440208A42F600C228F6 /* FeedVC.swift in Sources */,
+				04253C50209725B8002B465F /* CreateGroupsVC.swift in Sources */,
 				04A4ECCB208B0B32005CAA33 /* DataService.swift in Sources */,
 				04CB6EC9208B4808003BEBF0 /* LoginVC.swift in Sources */,
 				04480EB2208F1A09004E9445 /* CreatePostVC.swift in Sources */,
