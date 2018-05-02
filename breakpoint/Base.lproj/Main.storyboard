@@ -383,7 +383,7 @@
         <!--Group FeedVC-->
         <scene sceneID="C7r-Ez-ZWu">
             <objects>
-                <viewController id="gx8-NM-3lM" customClass="GroupFeedVC" customModule="breakpoint" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="GroupFeedVC" id="gx8-NM-3lM" customClass="GroupFeedVC" customModule="breakpoint" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="QAa-bx-9UC"/>
                         <viewControllerLayoutGuide type="bottom" id="F2l-5U-Mii"/>
@@ -395,8 +395,8 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dzX-x2-ssl">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="_grouptitle" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LXh-ff-ejU">
-                                        <rect key="frame" x="88" y="39" width="200" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="_grouptitle" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LXh-ff-ejU">
+                                        <rect key="frame" x="88" y="30.5" width="200" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="200" id="HVm-Q6-3RI"/>
                                         </constraints>
@@ -416,8 +416,10 @@
                                 <constraints>
                                     <constraint firstItem="LXh-ff-ejU" firstAttribute="centerX" secondItem="dzX-x2-ssl" secondAttribute="centerX" id="CTp-e8-QR0"/>
                                     <constraint firstAttribute="height" constant="70" id="Ppy-bk-SGy"/>
+                                    <constraint firstItem="nvu-F7-wM5" firstAttribute="top" secondItem="dzX-x2-ssl" secondAttribute="top" constant="30" id="SqD-SA-I2R"/>
                                     <constraint firstItem="nvu-F7-wM5" firstAttribute="top" secondItem="dzX-x2-ssl" secondAttribute="top" constant="30" id="WPu-ky-UZl"/>
                                     <constraint firstItem="nvu-F7-wM5" firstAttribute="leading" secondItem="dzX-x2-ssl" secondAttribute="leading" constant="20" id="hgV-2v-uIL"/>
+                                    <constraint firstItem="LXh-ff-ejU" firstAttribute="centerY" secondItem="nvu-F7-wM5" secondAttribute="centerY" id="tv7-T6-ueW"/>
                                 </constraints>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Lzr-lU-xhM">
@@ -432,17 +434,17 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="defaultProfileImage" translatesAutoresizingMaskIntoConstraints="NO" id="Gs7-S0-d9y">
-                                                    <rect key="frame" x="0.0" y="18" width="50" height="50"/>
+                                                    <rect key="frame" x="18" y="18" width="50" height="50"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="50" id="0L8-JO-e0q"/>
                                                         <constraint firstAttribute="width" constant="50" id="AJY-8h-H1v"/>
                                                     </constraints>
                                                 </imageView>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="vq4-Hb-3Mc">
-                                                    <rect key="frame" x="0.0" y="18" width="0.0" height="63.5"/>
+                                                    <rect key="frame" x="78" y="18" width="279" height="63.5"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="user@breakpoint.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n9z-kh-ZoK">
-                                                            <rect key="frame" x="0.0" y="0.0" width="0.0" height="20"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="279" height="20"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="20" id="pNo-mn-BJ8"/>
                                                             </constraints>
@@ -451,7 +453,7 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Message content" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="Ib9-Kj-GlS">
-                                                            <rect key="frame" x="0.0" y="26" width="0.0" height="37.5"/>
+                                                            <rect key="frame" x="0.0" y="26" width="279" height="37.5"/>
                                                             <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="12"/>
                                                             <color key="textColor" red="0.015686274510000001" green="0.6705882353" blue="0.7725490196" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
