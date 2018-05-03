@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040C87DB209B07D40058D3B2 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040C87DA209B07D40058D3B2 /* UIViewControllerExt.swift */; };
 		04253C50209725B8002B465F /* CreateGroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04253C4F209725B8002B465F /* CreateGroupsVC.swift */; };
 		04253C5220972D63002B465F /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04253C5120972D63002B465F /* UserCell.swift */; };
 		042E54D4208C933900DC2D40 /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042E54D3208C933900DC2D40 /* AuthVC.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		040C87DA209B07D40058D3B2 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 		04253C4F209725B8002B465F /* CreateGroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupsVC.swift; sourceTree = "<group>"; };
 		04253C5120972D63002B465F /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		042E54D3208C933900DC2D40 /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				04B9B3612095C51400C69D0F /* UIViewExt.swift */,
+				040C87DA209B07D40058D3B2 /* UIViewControllerExt.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -326,6 +329,7 @@
 				04EE13F1208E3B8400AD341C /* MeVC.swift in Sources */,
 				04A84E01209886DC002AACA4 /* GroupCell.swift in Sources */,
 				042E54D4208C933900DC2D40 /* AuthVC.swift in Sources */,
+				040C87DB209B07D40058D3B2 /* UIViewControllerExt.swift in Sources */,
 				04B61442208A42F600C228F6 /* GroupsVC.swift in Sources */,
 				046C2DB72099B2E4004D6534 /* GroupFeedVC.swift in Sources */,
 				046C2DB52099B236004D6534 /* GroupFeedCell.swift in Sources */,
